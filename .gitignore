@@ -1,3 +1,9 @@
+bower_components
+
+ignore
+*.sublime-project
+*.sublime-workspace
+
 # Logs
 logs
 *.log
