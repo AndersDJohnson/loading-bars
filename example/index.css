@@ -1,0 +1,29 @@
+.loading-bars {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+}
+
+.loading-bars-half {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  overflow: hidden;
+}
+
+.loading-bars-half-left {
+  left: 0;
+}
+
+.loading-bars-half-right {
+  right: 0;
+}
+
+.loading-bars-bar {
+  position: absolute;
+  height: 100%;
+}

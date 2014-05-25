@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+
+    <script>
+      function preStart () {
+        if (window.bars) {
+          alert('Oops already started. Click "Done" first.');
+          return true;
+        }
+      }
+      function onClickStart () {
+        if (preStart()) return;
+        var bars = window.bars = new Bars();
+        bars.start();
+      };
+      function onClickStartRainbow () {
+        if (preStart()) return;
+        var bars = window.bars = new Bars(['red', 'orange', 'yellow', 'green', 'blue', 'purple']);
+        bars.start();
+      };
+      function onClickDone () {
+        window.bars.done();
+        window.bars = null;
+      }
+    </script>
+    <button onclick="onClickDone()">Done</button>
+    <button onclick="onClickStart()">Start</button>
+    <button onclick="onClickStartRainbow()">Start Rainbow</button>
+
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../src/bars.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
