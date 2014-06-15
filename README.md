@@ -34,6 +34,29 @@ bars.start();
 
 ```
 
+## Options
+
+You can pass an options object to `new Bars( { /* ... */ } )`.
+
+Here are more options - the current defaults:
+
+```js
+{
+  /* you can provide an animation function in format of jQuery Easing (http://gsgd.co.uk/sandbox/jquery/easing/) */
+  progressFn: easeOutQuad,
+  /* control the frame rate */
+  frameRate: 60,
+  /* spread factor - not recommended to change */
+  spreadFactor: 3,
+  /* control the animation speed */
+  secondsPerLoop: 2,
+  /* these are the bar colors */
+  bars: ['#008844', '#ee0000', '#0066ff', '#ffcc00'],
+  /* the parent element to attach to */
+  parent: document.body
+}
+```
+
 
 ## Inspiration
 
