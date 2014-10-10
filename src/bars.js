@@ -19,12 +19,6 @@ $(function () {
       };
     }
 
-    if ($.isArray(options)) {
-      options = {
-        bars: options
-      };
-    }
-
     var defaultOptions = {
       progressFn: easeOutQuad,
       frameRate: 60,
@@ -121,7 +115,6 @@ $(function () {
     var _this = this;
 
     frame = frame || 0;
-    // console.log('frame', frame);
 
     $.each(this.bars, function (i, bar) {
 
