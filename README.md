@@ -1,7 +1,7 @@
 loading-bars
 ============
 
-Loading bars like Gmail app for Android.
+Loading bars like Gmail and other Google apps for Android.
 
 Demo: [http://AndersDJohnson.github.io/loading-bars/example/index.html](http:/AndersDJohnson.github.io/loading-bars/example/index.html)
 
