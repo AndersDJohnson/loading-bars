@@ -1,0 +1,22 @@
+{
+  "name": "loading-bars",
+  "version": "0.0.0",
+  "description": "loading-bars\r ============",
+  "main": "src/bars.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndersDJohnson/loading-bars.git"
+  },
+  "author": "Anders D. Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndersDJohnson/loading-bars/issues"
+  },
+  "homepage": "https://github.com/AndersDJohnson/loading-bars"
+}
