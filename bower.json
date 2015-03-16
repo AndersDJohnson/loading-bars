@@ -5,7 +5,7 @@
     "Anders D. Johnson <AndersDJohnson@gmail.com>"
   ],
   "main": ["src/bars.js"],
-  "license": "MIT",
+  "license": "ISC",
   "ignore": [
     "**/.*",
     "node_modules",
