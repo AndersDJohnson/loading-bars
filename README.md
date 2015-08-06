@@ -14,6 +14,12 @@ Install with bower:
 $ bower install --save loading-bars
 ```
 
+Install with npm:
+
+```sh
+$ npm install --save loading-bars
+```
+
 ## Use
 
 Include `src/bars.js` on your page.
