@@ -1,6 +1,6 @@
 {
   "name": "loading-bars",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "loading-bars\r ============",
   "main": "src/bars.js",
   "directories": {
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/AndersDJohnson/loading-bars.git"
   },
-  "author": "Anders D. Johnson",
+  "author": "Anders D. Johnson (https://andersdjohnson.com)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AndersDJohnson/loading-bars/issues"
